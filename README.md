@@ -11,7 +11,7 @@ The emulator emulates:
   - SYST_CLK 
   
 Blinking LED example:
-<code>
+```
   using System;
   using csGPIO;
   
@@ -33,4 +33,4 @@ Blinking LED example:
       gpio.Shutdown();
     }
   }
-</code>
+```
